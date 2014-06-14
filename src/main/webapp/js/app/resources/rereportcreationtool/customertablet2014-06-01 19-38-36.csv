@@ -1,0 +1,4 @@
+"customerTabletid","customerId","LocationNumber","TabletStatus","LocationDescription","TabletMacId","TabletActivationDate","LastPingStatus","tabletId"
+1,1,101,1,"Room 101",,,,1
+2,1,102,1,"Room 102",,,,2
+3,1,103,1,"Room 103",,,,3

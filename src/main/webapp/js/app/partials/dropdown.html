@@ -1,0 +1,27 @@
+<div ng-show="selectedFields.length > 0" class="col-md-12">
+	<form action="#" onsubmit="return false;">
+	<div class="col-md-3">
+		<select name="currentTable" required class="input-group" id="currentTable" ng-model="selectedField" ng-options="field group by 'Field Name' for field in selectedFields" rc-select-option="">
+		</select>
+	</div>
+	<div class="col-md-3">
+		<select name="operation" class="tableFieldbox" id="operation" ng-model="fieldOperation" ng-options="value.operation as value.name group by 'Operation' for value in fieldOptions" rc-select-option="">
+		</select>
+	</div>
+	 <div class="col-md-3">
+		<select name="fieldValues" class="tableFieldbox" id="fieldValues" ng-model="selectedValue" ng-options="value group by 'Field Values' for value in selectedValues" rc-select-option="">
+			<option value="*"></option>
+		</select>
+	</div>
+	<div class="col-md-3">
+		<button name="applyQuery" id='applyQuery' class='btn btn-default' value='applyQuery' type='submit'>Apply Query</button>
+	</div>
+	<div class="row" ng-show="errors.length > 0">
+		<div class="row"></div>
+		<div class="errors alert alert-danger alert-dismissable" ng-repeat="error in errors"> 
+			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+			<strong>{{ error.data }} : {{ error.error }} </strong>
+		</div>
+	</div> 
+</form>
+</div>

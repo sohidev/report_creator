@@ -1,0 +1,12 @@
+<table id="dataTable" class="table table-hover">
+	<tr>
+		<th ng-repeat="header in tableHeader">
+			{{ header }}
+		</th>
+	</tr>
+	<tr ng-repeat="data in tableData">
+		<td ng-repeat="header in tableHeader">
+			{{ data[header] }}
+		</td>
+	</tr>
+</table>

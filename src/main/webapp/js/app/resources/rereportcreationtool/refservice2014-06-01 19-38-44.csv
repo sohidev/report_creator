@@ -1,0 +1,9 @@
+"refserviceId","Description","departmentId","HasDetails","HasFeedback"
+1,"CheckIn",2,0,1
+2,"Wakeup",2,0,1
+3,"Booking Stay",2,0,1
+4,"Valet",6,0,1
+5,"Amenities",3,1,1
+6,"Food",5,1,1
+7,"Valet",6,0,1
+8,"WakeUp",,0,1

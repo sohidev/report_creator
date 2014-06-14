@@ -1,0 +1,23 @@
+<div class="appliedQuries col-md-12" ng-show="appliedQueries.length > 0" >
+	<ul class='list-inline col-md-12'>
+		<li class='col-md-6' ng-repeat="query in appliedQueries" rc-applied-query>
+			<div class="col-md-11 appliedQuery">
+				<a href='#' class="col-md-11"> 
+					<span class="tableName">
+						`{{ query.table.name }}` 
+					</span> : 
+					<span class="fieldName">
+						`{{query.query.field}}` 
+					</span> : 
+					<span class="fieldOperation">
+						{{query.query.operation}}
+					</span>
+					<span class="fieldVale">
+						{{query.query.value}}
+					</span> 
+				</a> 
+				<a href='#' class="col-md-1 pull-right close ">x</a>
+			</div>
+		</li>
+	</ul>
+</div>

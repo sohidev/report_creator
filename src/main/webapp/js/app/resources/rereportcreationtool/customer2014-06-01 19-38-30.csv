@@ -1,0 +1,6 @@
+"customerId","customerName","masterCustomerId","brandTypeId","StreetAddress1","StreetAddress2","StreetAddress3","City","State","Country","NumberofRooms","customerTypeId"
+1,"Best Western Watervillw",1,,"1035 Hankcock St",,,"Waterville","ME","US",150,1
+2,"Margarita",1,,"1045 Hankcock St",,,"Waterville","ME","US",,2
+3,"Chilis",1,,"1065 Hankcock St",,,"Waterville","ME","US",,2
+4,"Silver city Gril",0,,"1000 Hankcock St",,,"Waterville","ME","US",,2
+5,"Margarita",0,,"1045 Hankcock St",,,"Waterville","ME","US",,2
