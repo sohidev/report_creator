@@ -1,0 +1,14 @@
+{
+  "name": "ReportCreator",
+  "version": "0.1.0",
+  "authors": [
+    "r4mkum4r <r4mkum4r.r@gmail.com>"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-cssmin": "~0.7.0"
+  }
+}

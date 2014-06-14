@@ -1,0 +1,5 @@
+src/main/webapp/js/app/**/*.*
+src/main/webapp/js/vendor/**/*.*
+src/main/webapp/bower_components
+node_modules/
+target/

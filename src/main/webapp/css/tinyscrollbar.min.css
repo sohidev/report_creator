@@ -1,0 +1,72 @@
+/********************************
+** Tinyscrollbar plugin CSS
+*********************************/
+.tinyscrollbar .viewport {  
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.tinyscrollbar .overview {
+  width: 335px;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.tinyscrollbar .thumb,
+.tinyscrollbar .thumb .end {
+  background-color: #000;
+}
+.tinyscrollbar .thumb {
+  height: 9px;
+  width: 9px;
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  margin-left: -4px;
+}
+.tinyscrollbar .thumb .end {
+  overflow: hidden;
+  height: 5px;
+  width: 9px;
+}
+.tinyscrollbar .scrollbar {
+  position: relative;
+  float: right;
+  width: 21px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.tinyscrollbar .track {
+  background-color: #000;
+  height: 100%;
+  width: 1px;
+  position: relative;
+  left: 10px;
+  margin-top: 7px;
+}
+.tinyscrollbar .disable {
+  display: none;
+}
+.tinyscrollbar .noSelect,
+body.noSelect {
+  user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+.ipad .tinyscrollbar .track {
+  width: 2px;
+}
+.ipad .tinyscrollbar .thumb {
+  background-color: transparent;
+  padding: 0px 25px 45px 25px ! important;
+  margin-left: -30px;
+}
+.ipad .tinyscrollbar .thumb .end {
+  background-color: white;
+  height: 12px ! important;
+  width: 12px;
+}

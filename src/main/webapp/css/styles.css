@@ -1,0 +1,157 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.row{
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+.row:last-child{
+	margin: 0;
+	border: none;
+}
+
+.table_name{
+	text-transform: capitalize;
+	display: block;
+	text-align: left;
+	cursor: pointer;
+}
+
+.table_name:hover{
+	-webkit-transition:  font-weight, letter-spacing .1s linear;
+}
+
+.appliedQueries,.appliedQueries .col-md-9{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.appliedQuery{
+	text-align: center;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	background: #f50;
+	color: #fff;
+	padding: 7px;
+	border-radius: 5px;
+}
+
+.appliedQuery a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.appliedQuery a.close{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top20 { margin-top:20px; }
+.top30 { margin-top:30px; }
+
+.breadcrumb > li + li:before {
+    color: #CCCCCC;
+    content: "/ ";
+    padding: 0 5px;
+}
+
+.table_name a, .select2-results {
+	color: #222;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-rendering: optimizeLegibility;
+	text-align: left;
+	text-transform: capitalize;
+}
+
+.info{
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: .04em;
+	color: #000;
+	font-weight: 700;
+	font-style: normal;
+	border-bottom: 1px solid #ccc;
+	background-color: #f5f5f5;
+}
+
+.selectedtable{
+	clear: both;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	color: #000;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.tableFieldbox:focus{
+	border: none;
+}
+
+.highlight{color: #777;}
+
+.table_fields{
+	width: auto;
+	border: 1px solid #ccc;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.table_fields th{
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #f50;
+	color: #fff;
+}
+
+.table_fields td{
+	padding: 5px;
+}
+
+.drop-hover{
+	background: #ddd;
+}
+
+.drop-not-allowed{
+	background: red;
+}
+
+.drop-success{
+	background: green;
+}
+
+.connection{
+	border : 3px solid #000;
+}
+
+ul.filters{
+	padding: 10px;
+	border: 1px solid #000;
+	display: inline-block;
+}
+
+.filter{
+
+	padding: 5px;
+	border: 1px solid #000;
+	margin-right: 10px;
+
+}
+
+.filter:last-child{
+	margin-right: 0;
+}
